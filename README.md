@@ -73,8 +73,8 @@ So if you make a request to `https://example.com/page-a` which redirects to `/pa
 ```php
 [
     ['status' => 302, 'url' => 'https://example.com/page-a'],
-    ['status' => 302, 'url' => 'https://example.com/page-b']
-    ['status' => 200, 'url' => 'https://example.com/page-c']
+    ['status' => 302, 'url' => 'https://example.com/page-b'],
+    ['status' => 200, 'url' => 'https://example.com/page-c'],
 ];
 ```
 
