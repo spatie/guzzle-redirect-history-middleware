@@ -18,7 +18,6 @@ class RedirectHistoryMiddleware
 
     public function __invoke(callable $handler)
     {
-
         return function (RequestInterface $request, array $options) use ($handler) {
             /** @var \GuzzleHttp\Promise\FulfilledPromise $response */
             $response = $handler($request, $options);
