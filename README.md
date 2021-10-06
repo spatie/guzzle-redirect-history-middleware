@@ -1,7 +1,7 @@
 # A Guzzle middleware to keep track of redirects
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/guzzle-redirect-history-middleware.svg?style=flat-square)](https://packagist.org/packages/spatie/guzzle-redirect-history-middleware)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/spatie/guzzle-redirect-history-middleware/run-tests?label=tests)](https://github.com/spatie/guzzle-redirect-history-middleware/actions?query=workflow%3ATests+branch%3Amaster)
+[![Tests](https://github.com/spatie/guzzle-redirect-history-middleware/actions/workflows/run-tests.yml/badge.svg)](https://github.com/spatie/guzzle-redirect-history-middleware/actions/workflows/run-tests.yml)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/spatie/guzzle-redirect-history-middleware/Check%20&%20fix%20styling?label=code%20style)](https://github.com/spatie/guzzle-redirect-history-middleware/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/guzzle-redirect-history-middleware.svg?style=flat-square)](https://packagist.org/packages/spatie/guzzle-redirect-history-middleware)
 
