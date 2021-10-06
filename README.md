@@ -68,7 +68,7 @@ $redirects = $redirectHistory->toArray();
 - `status`: the status code of the response
 - `url`: the URL of the performed request that resulted in a redirect
 
-So if you make a request to `https://example.com/page-a` which redirects to `/page-b` which finally redirect to `/page-c` this will be in `$redirects`
+So if you make a request to `https://example.com/page-a` which redirects to `/page-b` which finally redirects to `/page-c`, this will be the content of `$redirects`
 
 ```php
 [
