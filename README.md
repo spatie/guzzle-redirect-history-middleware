@@ -25,6 +25,8 @@ composer require spatie/guzzle-redirect-history-middleware
 
 ## Usage
 
+Here is a quick example of how you can use the `Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistoryMiddleware` to store the redirect history in a `Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistory` instance.
+
 ```php
 use Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistory;
 use Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistoryMiddleware;
@@ -33,7 +35,7 @@ use Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistoryMiddleware;
  * First create a new instance of `RedirectHistory`
  * This instance can be used after the requests to get the redirects.
  */
-$redirectHistory = new RedirectHistory()
+$redirectHistory = new RedirectHistory();
 
 /*
  * This is the default way to add a middleware to Guzzle
