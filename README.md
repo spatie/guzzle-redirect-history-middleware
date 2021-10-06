@@ -25,6 +25,8 @@ composer require spatie/guzzle-redirect-history-middleware
 
 ## Usage
 
+Here is a quick example of how you can use the `Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistoryMiddleware` to store the redirect history in a `Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistory` instance.
+
 ```php
 use Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistory;
 use Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistoryMiddleware;
@@ -33,7 +35,7 @@ use Spatie\GuzzleRedirectHistoryMiddleware\RedirectHistoryMiddleware;
  * First create a new instance of `RedirectHistory`
  * This instance can be used after the requests to get the redirects.
  */
-$redirectHistory = new RedirectHistory()
+$redirectHistory = new RedirectHistory();
 
 /*
  * This is the default way to add a middleware to Guzzle
@@ -66,7 +68,7 @@ $redirects = $redirectHistory->toArray();
 - `status`: the status code of the response
 - `url`: the URL of the performed request that resulted in a redirect
 
-So if you make a request to `https://example.com/page-a` which redirects to `/page-b` which finally redirect to `/page-c` this will be in `$redirects`
+So if you make a request to `https://example.com/page-a` which redirects to `/page-b` which finally redirects to `/page-c`, this will be the content of `$redirects`
 
 ```php
 [
@@ -76,7 +78,7 @@ So if you make a request to `https://example.com/page-a` which redirects to `/pa
 ];
 ```
 
-Even if your initial request results in a `\GuzzleHttp\Exception\TooManyRedirectsException`, the `RedirectHistory` will still c``````ontain the performed redirects
+Even if your initial request results in a `\GuzzleHttp\Exception\TooManyRedirectsException`, the `RedirectHistory` will still contain the performed redirects
 
 ## Why we created this package
 
