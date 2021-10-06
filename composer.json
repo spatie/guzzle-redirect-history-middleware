@@ -1,36 +1,37 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "spatie/guzzle-redirect-history-middleware",
+    "description": "A Guzzle middleware to keep track of redirects",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "spatie",
+        "guzzle-redirect-history-middleware"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/spatie/guzzle-redirect-history-middleware",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
-        "phpunit/phpunit": "^9.5",
+        "pestphp/pest": "^1.20",
         "spatie/ray": "^1.28",
         "vimeo/psalm": "^4.8"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Spatie\\GuzzleRedirectHistoryMiddleware\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Spatie\\GuzzleRedirectHistoryMiddleware\\Tests\\": "tests"
         }
     },
     "scripts": {
