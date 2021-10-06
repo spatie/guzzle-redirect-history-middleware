@@ -78,7 +78,7 @@ So if you make a request to `https://example.com/page-a` which redirects to `/pa
 ];
 ```
 
-Even if your initial request results in a `\GuzzleHttp\Exception\TooManyRedirectsException`, the `RedirectHistory` will still c``````ontain the performed redirects
+Even if your initial request results in a `\GuzzleHttp\Exception\TooManyRedirectsException`, the `RedirectHistory` will still contain the performed redirects
 
 ## Why we created this package
 
