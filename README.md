@@ -48,7 +48,7 @@ $stack->push(RedirectHistoryMiddleware::make($redirectHistory));
  * Let's create Guzzle client that uses the middleware stack
  * containing our `RedirectHistoryMiddleware`.
  */
-$client new Client([
+$client = new Client([
     'handler' => $stack,
 ]);
 
