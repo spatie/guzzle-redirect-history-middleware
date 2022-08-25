@@ -25,7 +25,9 @@ class RedirectHistoryMiddleware
             $response->then(function (ResponseInterface $response) use ($request) {
                 $this->redirectHistory->add(
                     $response->getStatusCode(),
-                    (string)$request->getUri()
+                    (string)$request->getUri(),
+                    $response->getReasonPhrase(),
+                    $response->getHeaders()
                 );
             });
 

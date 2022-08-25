@@ -6,9 +6,9 @@ class RedirectHistory
 {
     protected array $history = [];
 
-    public function add(int $status, string $url)
+    public function add(int $status, string $url, string $reason, array $headers)
     {
-        $this->history[] = compact('status', 'url');
+        $this->history[] = compact('status', 'url', 'reason', 'headers');
     }
 
     public function toArray(): array
