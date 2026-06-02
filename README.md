@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/guzzle-redirect-history-middleware.svg?style=flat-square)](https://packagist.org/packages/spatie/guzzle-redirect-history-middleware)
 [![Tests](https://github.com/spatie/guzzle-redirect-history-middleware/actions/workflows/run-tests.yml/badge.svg)](https://github.com/spatie/guzzle-redirect-history-middleware/actions/workflows/run-tests.yml)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/spatie/guzzle-redirect-history-middleware/Check%20&%20fix%20styling?label=code%20style)](https://github.com/spatie/guzzle-redirect-history-middleware/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
+[![GitHub Code Style Action Status](https://github.com/spatie/guzzle-redirect-history-middleware/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/spatie/guzzle-redirect-history-middleware/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/guzzle-redirect-history-middleware.svg?style=flat-square)](https://packagist.org/packages/spatie/guzzle-redirect-history-middleware)
 
 This package contains middleware for [Guzzle](https://docs.guzzlephp.org/en/stable/) that allows you to track redirects that happened during a request.
