@@ -9,7 +9,7 @@ This package contains middleware for [Guzzle](https://docs.guzzlephp.org/en/stab
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/guzzle-redirect-history-middleware.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/guzzle-redirect-history-middleware)
+[<img src="https://spatie.be/github-ad-image/guzzle-redirect-history-middleware.jpg" width="419px" />](https://spatie.be/github-ad-click/guzzle-redirect-history-middleware)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
